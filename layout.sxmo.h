@@ -82,6 +82,7 @@ static Key keys_symbols[50] = {
 
   { 0 }, /* New row */
 
+  { "Tab", XK_Tab, 1 },
   { "'\"", XK_apostrophe, 1 },
   { "`~", XK_grave, 1 },
   { "-_", XK_minus, 1 },
@@ -92,7 +93,6 @@ static Key keys_symbols[50] = {
   { ".>", XK_period, 1 },
   { "/?", XK_slash, 1 },
   { "\\|", XK_backslash, 1 },
-  { ";:", XK_colon, 1 },
 
   { 0 }, /* New row */
 
